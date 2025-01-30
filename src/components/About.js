@@ -1,5 +1,5 @@
 import React from "react";
-import photoId from './photo1.png'
+import photoId from './photo.png'
 
 function About() {
   return (

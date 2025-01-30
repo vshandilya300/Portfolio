@@ -4,7 +4,7 @@ import { skills } from "../data";
 
 export default function Skills() {
   return (
-    <section id="skills">
+    <section id="skills" className="bg-black">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4" />
@@ -12,9 +12,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+          I specialize in C++, JavaScript, and full-stack web development using React, Node.js, and Express. I’m skilled in database management with MySQL and MongoDB, and have hands-on experience with Tailwind CSS for building responsive UIs. Let's turn your ideas into reality with the latest technologies!
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
